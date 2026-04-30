@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chain Site</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .chain {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .box {
+      background: #111;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    button {
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="chain">🔗 THE CHAIN 🔗</div>
+
+<div class="box">
+  <h3>User Dashboard</h3>
+  <p>Status: Active</p>
+</div>
+
+</body>
+</html>
