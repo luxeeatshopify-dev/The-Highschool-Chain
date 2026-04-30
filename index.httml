@@ -1,61 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>The Chain</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 40px;
-      background: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-
-    .chain {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin: 30px 0;
-    }
-
-    .block {
-      width: 40px;
-      height: 40px;
-      background: #222;
-      border: 1px solid #555;
-    }
-
-    .box {
-      margin: 20px auto;
-      padding: 20px;
-      width: 300px;
-      background: #111;
-      border: 1px solid #333;
-      border-radius: 10px;
-    }
-  </style>
+  <title>TEST</title>
 </head>
-
 <body>
 
-<h1>🔗 THE CHAIN 🔗</h1>
-
-<div class="chain">
-  <div class="block"></div>
-</div>
-
-<div class="box">
-  <h2>User Dashboard</h2>
-  <p>Status: Active</p>
-  <p>No assignment yet</p>
-</div>
+<h1 style="color:red;">IT IS WORKING</h1>
 
 </body>
 </html>
