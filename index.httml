@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chain Site</title>
+  <title>The Chain</title>
   <style>
     body {
       background: black;
@@ -12,9 +12,24 @@
       padding: 40px;
     }
 
-    .chain {
+    .header {
       font-size: 40px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+    }
+
+    .chain {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+
+    .block {
+      width: 40px;
+      height: 40px;
+      background: #222;
+      border: 1px solid #555;
     }
 
     .box {
@@ -23,24 +38,22 @@
       margin: 20px auto;
       width: 300px;
       border-radius: 10px;
-      border: 1px solid #333;
-    }
-
-    button {
-      padding: 10px;
-      margin-top: 10px;
-      cursor: pointer;
     }
   </style>
 </head>
 
 <body>
 
-<div class="chain">🔗 THE CHAIN 🔗</div>
+<div class="header">🔗 THE CHAIN 🔗</div>
+
+<div class="chain">
+  <div class="block"></div>
+</div>
 
 <div class="box">
   <h3>User Dashboard</h3>
   <p>Status: Active</p>
+  <p>No assignment yet</p>
 </div>
 
 </body>
